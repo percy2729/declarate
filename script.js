@@ -19,38 +19,4 @@ var coordenadas = () => {
 btnyes.addEventListener('click', () => {
     alert('Ya sabia que querias ser mi novia');
 });
-
-/*
- * A simple React component
- */
-class Application extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      animationClass: 'test' };
-
-    this.changeState = this.changeState.bind(this);
-  }
-
-  changeState() {
-    if (this.state.animationClass === 'test') {
-      this.setState({
-        animationClass: 'test paused' });
-
-    } else {
-      this.setState({
-        animationClass: 'test' });
-
-    }
-  }
-  render() {
-    return /*#__PURE__*/React.createElement("div", { className: this.state.animationClass }, /*#__PURE__*/
-    React.createElement("h1", null, ""), /*#__PURE__*/ );
-
-  }}
-
-
-/*
- * Render the above component into the div#app
- */
-React.render( /*#__PURE__*/React.createElement(Application, null), document.getElementById('app'));
+ 
