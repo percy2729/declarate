@@ -17,5 +17,5 @@ var coordenadas = () => {
 }
 
 btnyes.addEventListener('click', () => {
-    alert('ahora somos novios!! te amo silvana');
+    alert('ya sabia!! ahora somos novios!!');
 });
